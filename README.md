@@ -8,6 +8,8 @@
 
 A comprehensive external firewall for WordPress that blocks unwanted HTTP/cURL requests, email interception, cron execution, and detects obfuscated code — all with granular per-plugin and per-theme control.
 
+Donate to PayPal.me/Dealazer or look in the main file for other donation link
+
 ---
 
 ## 🔥 Features

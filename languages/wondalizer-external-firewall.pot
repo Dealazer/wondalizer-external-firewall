@@ -1,0 +1,1305 @@
+# Copyright (C) 2026 Wondalizer
+# This file is distributed under the same license as the Wondalizer External Firewall package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Wondalizer External Firewall 8.1.8\n"
+"Report-Msgid-Bugs-To: https://wondalizer.com/support\n"
+"POT-Creation-Date: 2026-07-20 17:00:00+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Wondalizer <support@wondalizer.com>\n"
+"Language-Team: Wondalizer <support@wondalizer.com>\n"
+"X-Generator: Wondalizer External Firewall 8.1.8\n"
+"X-Domain: wondalizer-external-firewall\n"
+
+#. Plugin Name header
+#: wondalizer-external-firewall.php
+msgid "Wondalizer External Firewall"
+msgstr ""
+
+#. Plugin Description header
+#: wondalizer-external-firewall.php
+msgid "Advanced external request firewall for WordPress with cURL, socket, and email. Advanced management and intruder prevention for hijacked plugins, plus logging for the curious and the paranoid in all of us."
+msgstr ""
+
+#: includes/render/class-render-header.php:60
+msgid "About"
+msgstr ""
+
+#: includes/render/class-render-about.php:13
+msgid "About Wondalizer External Firewall"
+msgstr ""
+
+#: includes/render/class-render-roster.php:175
+msgid "Action"
+msgstr ""
+
+#: includes/class-admin-tables.php:130
+#: includes/class-admin-tables.php:29
+#: includes/render/class-render-cron-domains.php:115
+#: includes/render/class-render-cron-domains.php:47
+#: includes/render/class-render-cron.php:90
+msgid "Actions"
+msgstr ""
+
+#: includes/render/class-render-cron.php:46
+msgid "ACTIVE"
+msgstr ""
+
+#: includes/class-admin-tables.php:18
+msgid "Active & Installed Themes"
+msgstr ""
+
+#: includes/render/class-render-about.php:90
+msgid "Activity logging with configurable retention"
+msgstr ""
+
+#: includes/render/class-render-about.php:47
+msgid "After blocking or unblocking extensions, you may need to clear Opcache, Memcache, Redis, or SQLite cache. Changes are applied at the PHP level but cached files may still execute old code. If you do not see changes immediately, try clearing your server cache or restarting PHP-FPM."
+msgstr ""
+
+#: includes/render/class-render-about.php:64
+msgid "After blocking or unblocking plugins in the lists, you may need to clear your server cache for changes to take effect immediately. This includes Opcache, Memcache, Redis, or SQLite cache if used by your WordPress installation. The firewall changes are applied at the PHP level, but cached PHP files may still execute the old code until the cache is flushed. For immediate effect, clear all caches after making changes to blocklists or allowlists."
+msgstr ""
+
+#: includes/render/class-render-header.php:21
+msgid "All logs have been cleared."
+msgstr ""
+
+#: includes/render/class-render-cron-domains.php:126
+#: includes/render/class-render-cron-domains.php:81
+#: includes/render/class-render-cron.php:168
+msgid "Allow"
+msgstr ""
+
+#: includes/class-admin-tables.php:173
+msgid "Allow Emails"
+msgstr ""
+
+#: includes/render/class-render-cron.php:89
+msgid "Allow List"
+msgstr ""
+
+#: includes/render/class-render-settings.php:86
+msgid "Allow Same-Site for Blocked"
+msgstr ""
+
+#: includes/render/class-render-cron-domains.php:33
+msgid "Allow Selected"
+msgstr ""
+
+#: includes/class-admin-tables.php:146
+#: includes/class-admin-tables.php:45
+#: includes/render/class-render-cron.php:138
+#: includes/render/class-render-logs.php:146
+msgid "ALLOWED"
+msgstr ""
+
+#: includes/render/class-render-cron-domains.php:123
+#: includes/render/class-render-cron-domains.php:67
+#: includes/render/class-render-roster.php:180
+msgid "Allowed"
+msgstr ""
+
+#: includes/render/class-render-settings.php:66
+msgid "Allowed Domains"
+msgstr ""
+
+#: includes/render/class-render-settings.php:61
+msgid "Allowed Domains (Blocked Plugin Exceptions)"
+msgstr ""
+
+#: includes/render/class-render-cron.php:59
+msgid "Allowed Hooks"
+msgstr ""
+
+#: includes/render/class-render-settings.php:46
+msgid "Also log internal / same-site HTTP requests"
+msgstr ""
+
+#: includes/render/class-render-settings.php:127
+msgid "Always allow EDD emails and HTTP requests (purchase receipts, API calls)."
+msgstr ""
+
+#: includes/render/class-render-settings.php:128
+msgid "Always allow PayPal emails and HTTP requests (IPN, PDT, API calls, payment confirmations)."
+msgstr ""
+
+#: includes/render/class-render-settings.php:87
+msgid "Always allow same-site / localhost connections even for blocked plugins"
+msgstr ""
+
+#: includes/render/class-render-settings.php:126
+msgid "Always allow WooCommerce emails and HTTP requests (orders, webhooks, API calls)."
+msgstr ""
+
+#: includes/render/class-render-logs.php:76
+msgid "Are you sure you want to completely erase all logs?"
+msgstr ""
+
+#: includes/render/class-render-about.php:74
+msgid "Author"
+msgstr ""
+
+#: includes/render/class-render-about.php:75
+msgid "Author URI"
+msgstr ""
+
+#: includes/render/class-render-settings.php:146
+msgid "Auto Rewrite"
+msgstr ""
+
+#: includes/render/class-render-settings.php:58
+msgid "Auto-Whitelist reCAPTCHA Domains"
+msgstr ""
+
+#: includes/render/class-render-settings.php:57
+msgid "Auto-Whitelist WordPress Core Domains"
+msgstr ""
+
+#: includes/render/class-render-settings.php:146
+msgid "Automatically rewrite on plugin/theme activation and updates."
+msgstr ""
+
+#: includes/render/class-render-header.php:48
+#: includes/render/class-render-header.php:56
+msgid "Bad Potential"
+msgstr ""
+
+#: includes/render/class-render-roster.php:166
+msgid "Bad Potential — Obfuscated Code Detection"
+msgstr ""
+
+#: includes/class-admin-tables.php:103
+#: includes/render/class-render-cron-domains.php:126
+#: includes/render/class-render-cron-domains.php:76
+#: includes/render/class-render-cron.php:157
+msgid "Block"
+msgstr ""
+
+#: includes/render/class-render-cron-domains.php:34
+msgid "Block All"
+msgstr ""
+
+#: includes/render/class-render-settings.php:95
+msgid "Block ALL new plugins from making HTTP requests."
+msgstr ""
+
+#: includes/render/class-render-settings.php:96
+msgid "Block ALL new plugins from sending Emails."
+msgstr ""
+
+#: includes/render/class-render-settings.php:103
+msgid "Block ALL new themes from making HTTP requests."
+msgstr ""
+
+#: includes/render/class-render-settings.php:104
+msgid "Block ALL new themes from sending Emails."
+msgstr ""
+
+#: includes/render/class-render-cron-domains.php:133
+msgid "Block All Obs"
+msgstr ""
+
+#: includes/class-admin-tables.php:176
+msgid "Block Emails"
+msgstr ""
+
+#: includes/render/class-render-roster.php:181
+msgid "Block Functionality"
+msgstr ""
+
+#: includes/render/class-render-settings.php:79
+msgid "Block Google reCAPTCHA / gstatic requests"
+msgstr ""
+
+#: includes/render/class-render-settings.php:79
+msgid "Block reCAPTCHA"
+msgstr ""
+
+#: includes/render/class-render-cron-domains.php:32
+msgid "Block Selected"
+msgstr ""
+
+#: includes/class-admin-tables.php:145
+#: includes/class-admin-tables.php:44
+#: includes/render/class-render-cron.php:136
+#: includes/render/class-render-logs.php:141
+#: includes/render/class-render-roster.php:180
+msgid "BLOCKED"
+msgstr ""
+
+#: includes/render/class-render-cron-domains.php:123
+#: includes/render/class-render-cron-domains.php:65
+msgid "Blocked"
+msgstr ""
+
+#: includes/render/class-render-settings.php:74
+msgid "Blocked Domains"
+msgstr ""
+
+#: includes/render/class-render-settings.php:69
+msgid "Blocked Domains (Blocklist)"
+msgstr ""
+
+#: includes/render/class-render-cron.php:55
+msgid "Blocked Hooks"
+msgstr ""
+
+#: includes/class-admin-init.php:71
+msgid "Blocked:"
+msgstr ""
+
+#: includes/render/class-render-cron-domains.php:31
+msgid "Bulk Cron:"
+msgstr ""
+
+#: includes/render/class-render-settings.php:78
+msgid "By default, reCAPTCHA requests to Google are ALLOWED so contact forms and logins do not break. Disable this only if you want to block Google/reCAPTCHA explicitly."
+msgstr ""
+
+#: includes/render/class-render-settings.php:83
+msgid "Cache Plugin Notice:"
+msgstr ""
+
+#: includes/class-admin-render.php:46
+msgid "Capabilities"
+msgstr ""
+
+#: includes/class-admin-ajax.php:180
+msgid "Check domains to ALLOW even when blocked:"
+msgstr ""
+
+#: includes/render/class-render-logs.php:52
+msgid "Check PHP error_log for WON1-TRACE and WON1-DEBUG messages if logging seems broken."
+msgstr ""
+
+#: includes/render/class-render-roster.php:119
+msgid "Clear ALL cURL Cache"
+msgstr ""
+
+#: includes/render/class-render-logs.php:77
+msgid "Clear All Logs"
+msgstr ""
+
+#: includes/render/class-render-settings.php:123
+msgid "Commerce & Payment Whitelists"
+msgstr ""
+
+#: includes/render/class-render-roster.php:22
+msgid "Controls whether plugins and themes can make external HTTP connections. Blocks are absolute and happen before DNS resolution."
+msgstr ""
+
+#: includes/render/class-render-logs.php:116
+msgid "Core"
+msgstr ""
+
+#: includes/render/class-render-about.php:81
+msgid "Core Features"
+msgstr ""
+
+#: includes/render/class-render-settings.php:133
+msgid "CRITICAL WARNING: File Modification"
+msgstr ""
+
+#: includes/render/class-render-cron.php:15
+#: includes/render/class-render-header.php:57
+#: includes/render/class-render-settings.php:117
+msgid "Cron Firewall"
+msgstr ""
+
+#: includes/render/class-render-cron.php:28
+msgid "Cron Firewall is OFF — Allow Mode"
+msgstr ""
+
+#: includes/render/class-render-cron.php:28
+msgid "Cron Firewall is ON — Blocking Mode"
+msgstr ""
+
+#: includes/render/class-render-cron.php:47
+msgid "Cron Firewall Status"
+msgstr ""
+
+#: includes/render/class-render-cron.php:85
+msgid "Cron Hook"
+msgstr ""
+
+#: includes/render/class-render-cron-domains.php:18
+msgid "Cron Jobs"
+msgstr ""
+
+#: includes/class-admin-render.php:43
+msgid "cURL"
+msgstr ""
+
+#: includes/render/class-render-roster.php:96
+msgid "cURL & Mail Rewrite Cache"
+msgstr ""
+
+#: includes/render/class-render-settings.php:131
+msgid "cURL & Mail Rewrite Engine"
+msgstr ""
+
+#: includes/render/class-render-header.php:55
+msgid "cURL Cache"
+msgstr ""
+
+#: includes/render/class-render-about.php:85
+msgid "cURL Cache Engine — rewrites raw cURL, fsockopen, mail() to WordPress APIs"
+msgstr ""
+
+#: includes/render/class-render-roster.php:106
+msgid "cURL Cache is DISABLED"
+msgstr ""
+
+#: includes/render/class-render-roster.php:108
+msgid "cURL Cache is ENABLED"
+msgstr ""
+
+#: includes/render/class-render-settings.php:47
+msgid "cURL Cache Logs"
+msgstr ""
+
+#: includes/render/class-render-about.php:88
+msgid "Custom domain whitelist with WordPress Core auto-whitelist"
+msgstr ""
+
+#: includes/render/class-render-logs.php:40
+msgid "Database Table:"
+msgstr ""
+
+#: includes/render/class-render-roster.php:71
+msgid "Dedicated Email Firewall"
+msgstr ""
+
+#: includes/render/class-render-cron-domains.php:69
+msgid "Default"
+msgstr ""
+
+#: includes/render/class-render-settings.php:100
+msgid "Default-deny mode: only extensions you explicitly mark as \"Allowed\" on the HTTP Firewall page can make external HTTP requests. Unknown, unlisted or hijacked plugins are blocked automatically. WordPress core stays allowed, and the same-site exception still applies when enabled below. To let a plugin through, allow it first on the HTTP Firewall page — enable this only when you are ready to allowlist what your site needs."
+msgstr ""
+
+#: includes/render/class-render-cron.php:31
+msgid "Default: ALLOW. Cron hooks run external requests normally."
+msgstr ""
+
+#: includes/render/class-render-roster.php:30
+msgid "Default: ALLOW. Only plugins in the block list and domains in the blocklist are stopped."
+msgstr ""
+
+#: includes/render/class-render-cron.php:31
+msgid "Default: DENY. All external HTTP requests during wp-cron.php are blocked unless whitelisted."
+msgstr ""
+
+#: includes/render/class-render-roster.php:30
+msgid "Default: DENY. Only explicitly unblocked plugins can connect, or allowed domains when blocked."
+msgstr ""
+
+#: includes/render/class-render-logs.php:86
+msgid "Destination"
+msgstr ""
+
+#: includes/render/class-render-cron-domains.php:79
+msgid "Disallow"
+msgstr ""
+
+#: includes/render/class-render-about.php:58
+msgid "Do you want to listen to the creator of this plugin his music? It's hot and wonderful music so go and always visit"
+msgstr ""
+
+#: includes/render/class-render-settings.php:54
+msgid "Domain Controls"
+msgstr ""
+
+#: includes/class-admin-tables.php:93
+msgid "Domains"
+msgstr ""
+
+#: includes/render/class-render-settings.php:63
+msgid "Domains listed here are allowed EVEN for blocked plugins. Unlike the whitelist (which allows all plugins), this list only grants access to specific domains while the plugin remains blocked for everything else. Use this to let blocked plugins access critical APIs without fully unblocking them."
+msgstr ""
+
+#: includes/render/class-render-settings.php:71
+msgid "Domains listed here will be BLOCKED regardless of source plugin. Use this to stop tracking, analytics, or unwanted API calls. One domain per line. Supports wildcards like *.tracker.com"
+msgstr ""
+
+#: includes/render/class-render-about.php:54
+msgid "Donate with PayPal"
+msgstr ""
+
+#: includes/render/class-render-settings.php:127
+msgid "Easy Digital Downloads"
+msgstr ""
+
+#: includes/render/class-render-logs.php:123
+msgid "EMAIL"
+msgstr ""
+
+#: includes/render/class-render-header.php:54
+msgid "Email Control"
+msgstr ""
+
+#: includes/class-admin-tables.php:123
+msgid "Email Controls"
+msgstr ""
+
+#: includes/render/class-render-about.php:84
+msgid "Email Firewall blocking wp_mail() and mail() independently"
+msgstr ""
+
+#: includes/render/class-render-settings.php:42
+msgid "Email Logs"
+msgstr ""
+
+#: includes/render/class-render-header.php:46
+msgid "Email Logs (30d)"
+msgstr ""
+
+#: includes/class-admin-init.php:72
+msgid "Email Logs:"
+msgstr ""
+
+#: includes/render/class-render-header.php:47
+msgid "Emails Blocked"
+msgstr ""
+
+#: includes/class-admin-tables.php:129
+msgid "Emails Sent / Blocked (30d)"
+msgstr ""
+
+#: includes/render/class-render-settings.php:137
+msgid "Enable Cache Engine"
+msgstr ""
+
+#: includes/render/class-render-settings.php:118
+msgid "Enable Cron Firewall"
+msgstr ""
+
+#: includes/render/class-render-settings.php:114
+msgid "Enable HTTP Firewall"
+msgstr ""
+
+#: includes/render/class-render-settings.php:110
+msgid "Enable or disable the firewall engines entirely. When disabled, the firewall will log but not block any requests. This is useful for monitoring without enforcement."
+msgstr ""
+
+#: includes/render/class-render-settings.php:33
+msgid "Enable or disable the logging engine. When enabled, the plugin logs: HTTP requests (allowed and blocked), email attempts (allowed and blocked), and blocked attempts with source tracing."
+msgstr ""
+
+#: includes/render/class-render-settings.php:139
+msgid "Enable Rewrite Engine Master Switch"
+msgstr ""
+
+#: includes/render/class-render-settings.php:149
+msgid "Enable Ultimate Scan (100% file scan)"
+msgstr ""
+
+#: includes/render/class-render-settings.php:134
+msgid "Enabling Cache Engine will PHYSICALLY REWRITE plugin/theme PHP files on your server disk."
+msgstr ""
+
+#: includes/render/class-render-settings.php:23
+msgid "Explicit Logging Options"
+msgstr ""
+
+#: includes/class-admin-render.php:42
+#: includes/render/class-render-cron-domains.php:113
+#: includes/render/class-render-logs.php:84
+#: includes/render/class-render-roster.php:175
+msgid "Extension"
+msgstr ""
+
+#: includes/class-admin-tables.php:127
+#: includes/class-admin-tables.php:26
+msgid "Extension / Source"
+msgstr ""
+
+#: includes/render/class-render-roster.php:166
+msgid "Extensions flagged with suspicious patterns (eval, base64_decode, gzinflate, variable functions, etc.) are listed here. Blocking them will immediately prevent ALL HTTP and email access from that extension."
+msgstr ""
+
+#: includes/render/class-render-roster.php:106
+msgid "Extensions using raw cURL, fsockopen, or mail() bypass WordPress APIs. Enable cURL Cache in Settings to intercept these safely."
+msgstr ""
+
+#: includes/class-admin-tables.php:28
+msgid "External Connections (30d)"
+msgstr ""
+
+#: includes/class-admin-init.php:26
+#: includes/class-admin-init.php:27
+msgid "External Firewall"
+msgstr ""
+
+#: includes/render/class-render-settings.php:108
+msgid "Firewall Engine Controls"
+msgstr ""
+
+#: includes/render/class-render-about.php:37
+msgid "Firewall Protection"
+msgstr ""
+
+#: includes/render/class-render-settings.php:21
+msgid "Firewall Settings"
+msgstr ""
+
+#: includes/render/class-render-cron-domains.php:62
+msgid "from now"
+msgstr ""
+
+#: includes/render/class-render-settings.php:92
+msgid "Global Blocking Behaviors"
+msgstr ""
+
+#: includes/render/class-render-roster.php:106
+msgid "Go to Settings"
+msgstr ""
+
+#: includes/render/class-render-settings.php:141
+msgid "Granular Rewrites"
+msgstr ""
+
+#: includes/render/class-render-settings.php:99
+msgid "Hard block EVERY plugin, theme and unknown source that is not on the Allowed list."
+msgstr ""
+
+#: includes/render/class-render-settings.php:98
+msgid "Hard Block Mode"
+msgstr ""
+
+#: includes/render/class-render-logs.php:42
+msgid "HEALTHY"
+msgstr ""
+
+#: includes/render/class-render-cron-domains.php:44
+msgid "Hook"
+msgstr ""
+
+#: includes/class-admin-tables.php:196
+msgid "Host"
+msgstr ""
+
+#: includes/render/class-render-logs.php:123
+msgid "HTTP"
+msgstr ""
+
+#: includes/render/class-render-roster.php:22
+msgid "HTTP / cURL Request Firewall"
+msgstr ""
+
+#: includes/render/class-render-about.php:83
+msgid "HTTP / cURL Request Firewall with per-plugin control"
+msgstr ""
+
+#: includes/render/class-render-header.php:45
+msgid "HTTP Blocked"
+msgstr ""
+
+#: includes/render/class-render-header.php:53
+#: includes/render/class-render-settings.php:113
+msgid "HTTP Firewall"
+msgstr ""
+
+#: includes/render/class-render-roster.php:27
+msgid "HTTP Firewall is OFF — Allow Mode"
+msgstr ""
+
+#: includes/render/class-render-roster.php:27
+msgid "HTTP Firewall is ON — Blocking Mode"
+msgstr ""
+
+#: includes/render/class-render-settings.php:38
+msgid "HTTP Logs"
+msgstr ""
+
+#: includes/render/class-render-header.php:44
+msgid "HTTP Logs (30d)"
+msgstr ""
+
+#: includes/class-admin-init.php:70
+msgid "HTTP Requests:"
+msgstr ""
+
+#: includes/render/class-render-cron.php:88
+msgid "HTTP Status"
+msgstr ""
+
+#: includes/render/class-render-settings.php:138
+msgid "I UNDERSTAND that enabling Cache Engine will modify files on disk."
+msgstr ""
+
+#: includes/render/class-render-about.php:52
+msgid "If this plugin helps protect your site, consider supporting its development so we can keep updating the detection algorithms."
+msgstr ""
+
+#: includes/render/class-render-roster.php:160
+msgid "If you are afraid this program uses too much you might want to uninstall this plugin, but its approved. by WordPress. And does not possess powers beyond this program. Unless WordPress was hacked with a code in the plugin. Don't worry. These days AI can be a good tool to reduce harm by checking codes for intruders. This program was made intentionally to make hackers unable to inject programs into your system by a plugin or theme install that you do on your own terms. I can't be hold responsible. This program is maxed out. No more versions perhaps. This program is made for purpose of paranoidity, to treat it and feel free from prison or shackles because one thing was not right."
+msgstr ""
+
+#: includes/render/class-render-about.php:62
+msgid "Important Readme Note"
+msgstr ""
+
+#: includes/render/class-render-about.php:46
+msgid "Important Readme Note:"
+msgstr ""
+
+#: includes/render/class-render-roster.php:71
+msgid "Independently aborts outbound emails sent by extensions. Protects against spam relays and malicious contact form exploitation."
+msgstr ""
+
+#: includes/class-admin-tables.php:19
+msgid "Installed Plugins"
+msgstr ""
+
+#: includes/render/class-render-settings.php:46
+msgid "Internal HTTP"
+msgstr ""
+
+#: includes/render/class-render-logs.php:15
+msgid "Legend:"
+msgstr ""
+
+#: includes/render/class-render-about.php:76
+msgid "License"
+msgstr ""
+
+#: includes/render/class-render-footer.php:16
+msgid "Loading..."
+msgstr ""
+
+#: includes/render/class-render-settings.php:48
+msgid "Log all intercepted cURL / socket / mail calls from rewritten plugins"
+msgstr ""
+
+#: includes/render/class-render-settings.php:44
+msgid "Log ALLOWED Emails"
+msgstr ""
+
+#: includes/render/class-render-settings.php:40
+msgid "Log ALLOWED HTTP requests (Warning: can be very large)"
+msgstr ""
+
+#: includes/render/class-render-settings.php:43
+msgid "Log BLOCKED Emails"
+msgstr ""
+
+#: includes/render/class-render-settings.php:39
+msgid "Log BLOCKED HTTP requests"
+msgstr ""
+
+#: includes/render/class-render-settings.php:51
+msgid "Log Retention"
+msgstr ""
+
+#: includes/render/class-render-logs.php:38
+msgid "Logger Diagnostics"
+msgstr ""
+
+#: includes/render/class-render-settings.php:26
+msgid "Logging Engine"
+msgstr ""
+
+#: includes/render/class-render-logs.php:58
+msgid "Logging is DISABLED in settings."
+msgstr ""
+
+#: includes/render/class-render-header.php:49
+msgid "Logging Status"
+msgstr ""
+
+#: includes/render/class-render-header.php:59
+msgid "Logs"
+msgstr ""
+
+#: includes/render/class-render-footer.php:15
+msgid "Manage Allowed HTTP Domains"
+msgstr ""
+
+#: includes/render/class-render-settings.php:83
+msgid "Many cache and optimization plugins (e.g. WP Rocket, W3 Total Cache, LiteSpeed Cache) make same-site HTTP requests to warm caches or generate static files. Disabling same-site exceptions may break these features."
+msgstr ""
+
+#: includes/render/class-render-logs.php:85
+msgid "Method"
+msgstr ""
+
+#: includes/render/class-render-logs.php:119
+msgid "MU"
+msgstr ""
+
+#: includes/render/class-render-about.php:91
+msgid "MU helper for early interception"
+msgstr ""
+
+#: includes/render/class-render-roster.php:100
+msgid "MU Plugin Missing or Inactive"
+msgstr ""
+
+#: includes/render/class-render-settings.php:124
+msgid "Never block HTTP requests or emails from these trusted commerce plugins."
+msgstr ""
+
+#: includes/render/class-render-cron-domains.php:45
+#: includes/render/class-render-cron.php:86
+msgid "Next Run"
+msgstr ""
+
+#: includes/render/class-render-cron-domains.php:39
+msgid "No cron jobs scheduled."
+msgstr ""
+
+#: includes/class-admin-render.php:30
+msgid "No extensions found in this category. Try clicking Rescan All Extensions above."
+msgstr ""
+
+#: includes/class-admin-render.php:281
+msgid "No extensions found. Ensure you have plugins or themes installed."
+msgstr ""
+
+#: includes/class-admin-ajax.php:187
+msgid "No external domains discovered in static scan."
+msgstr ""
+
+#: includes/class-admin-tables.php:135
+#: includes/class-admin-tables.php:34
+msgid "No items in this category."
+msgstr ""
+
+#: includes/class-admin-tables.php:192
+msgid "No logs found."
+msgstr ""
+
+#: includes/render/class-render-logs.php:155
+msgid "No logs found. If requests are happening but not showing, check Logging Settings."
+msgstr ""
+
+#: includes/render/class-render-roster.php:173
+msgid "No obfuscated extensions detected on your site!"
+msgstr ""
+
+#: includes/render/class-render-cron-domains.php:107
+msgid "No obfuscated extensions detected."
+msgstr ""
+
+#: includes/render/class-render-cron.php:117
+msgid "No scheduled cron events found."
+msgstr ""
+
+#: includes/render/class-render-cron-domains.php:94
+msgid "Obfuscation"
+msgstr ""
+
+#: includes/render/class-render-about.php:86
+msgid "Obfuscation Detection (Bad Potential) with threat scoring"
+msgstr ""
+
+#: includes/render/class-render-cron.php:46
+#: includes/render/class-render-header.php:49
+msgid "OFF"
+msgstr ""
+
+#: includes/render/class-render-header.php:49
+msgid "ON"
+msgstr ""
+
+#: includes/render/class-render-settings.php:56
+msgid "One domain per line. Ex: api.stripe.com. These domains are always allowed — except for plugins you explicitly blocked on the HTTP Firewall page (an explicit block wins over this list). Use the per-plugin Domains button to grant a blocked plugin specific domain exceptions."
+msgstr ""
+
+#: includes/render/class-render-settings.php:66
+msgid "One domain per line. Example: api.stripe.com, updates.elementor.com. Blocked plugins can still call these domains."
+msgstr ""
+
+#: includes/render/class-render-settings.php:74
+msgid "One domain per line. Example: rankmath.com, *.analytics.com"
+msgstr ""
+
+#: includes/render/class-render-cron.php:124
+msgid "One-time"
+msgstr ""
+
+#: wondalizer-external-firewall.php:281
+msgid "Open the About page"
+msgstr ""
+
+#: includes/render/class-render-about.php:53
+msgid "or"
+msgstr ""
+
+#: includes/class-admin-render.php:121
+#: includes/class-admin-render.php:140
+#: includes/class-admin-render.php:159
+msgid "Original"
+msgstr ""
+
+#: includes/render/class-render-roster.php:118
+msgid "Patch All Eligible Extensions"
+msgstr ""
+
+#: includes/render/class-render-roster.php:123
+msgid "Patch All sequentially processes all unpatched plugins. Select rows and use Restore Selected to bulk-revert."
+msgstr ""
+
+#: includes/class-admin-render.php:118
+#: includes/class-admin-render.php:137
+#: includes/class-admin-render.php:156
+msgid "Patched"
+msgstr ""
+
+#: includes/render/class-render-roster.php:175
+msgid "Patterns Found"
+msgstr ""
+
+#: includes/render/class-render-settings.php:128
+msgid "PayPal"
+msgstr ""
+
+#: includes/render/class-render-about.php:19
+msgid "PHP Environment"
+msgstr ""
+
+#: includes/class-admin-render.php:45
+msgid "PHP Mail()"
+msgstr ""
+
+#: includes/render/class-render-logs.php:118
+msgid "Plugin"
+msgstr ""
+
+#: includes/render/class-render-settings.php:94
+msgid "Plugin Defaults"
+msgstr ""
+
+#: includes/render/class-render-about.php:69
+msgid "Plugin Information"
+msgstr ""
+
+#: includes/render/class-render-about.php:71
+msgid "Plugin Name"
+msgstr ""
+
+#: includes/render/class-render-about.php:73
+msgid "Plugin URI"
+msgstr ""
+
+#: includes/class-admin-render.php:51
+#: includes/class-admin-tables.php:156
+#: includes/class-admin-tables.php:67
+msgid "Protected"
+msgstr ""
+
+#: includes/class-admin-render.php:53
+#: includes/class-admin-tables.php:143
+#: includes/class-admin-tables.php:42
+msgid "PROTECTED"
+msgstr ""
+
+#: includes/class-admin-tables.php:107
+#: includes/class-admin-tables.php:180
+msgid "Protected system extension"
+msgstr ""
+
+#: includes/class-admin-tables.php:196
+msgid "Reason"
+msgstr ""
+
+#: includes/render/class-render-settings.php:58
+msgid "reCAPTCHA"
+msgstr ""
+
+#: includes/render/class-render-settings.php:77
+msgid "reCAPTCHA Protection"
+msgstr ""
+
+#: includes/render/class-render-about.php:89
+msgid "reCAPTCHA-safe by default"
+msgstr ""
+
+#: includes/render/class-render-logs.php:18
+msgid "Recent Connection Attempts"
+msgstr ""
+
+#: includes/render/class-render-cron.php:87
+msgid "Recurrence"
+msgstr ""
+
+#: includes/render/class-render-cron.php:165
+msgid "Remove Allow"
+msgstr ""
+
+#: includes/class-firewall.php:273
+#: includes/class-guard.php:154
+#: wondalizer-fw-curl-guard.php:375
+msgid "Request blocked by Wondalizer External Firewall (Hard Block Mode)."
+msgstr ""
+
+#: includes/class-firewall.php:217
+#: includes/class-firewall.php:254
+#: includes/class-firewall.php:321
+#: includes/class-firewall.php:328
+#: includes/class-guard.php:197
+#: includes/class-guard.php:212
+#: ... (8 total references)
+msgid "Request blocked by Wondalizer External Firewall."
+msgstr ""
+
+#: includes/render/class-render-roster.php:116
+#: includes/render/class-render-roster.php:47
+msgid "Rescan All Extensions"
+msgstr ""
+
+#: includes/class-admin-tables.php:82
+msgid "Rescan needed to discover domains"
+msgstr ""
+
+#: includes/class-admin-render.php:119
+#: includes/class-admin-render.php:138
+#: includes/class-admin-render.php:157
+msgid "Restore"
+msgstr ""
+
+#: includes/render/class-render-roster.php:120
+msgid "Restore Selected"
+msgstr ""
+
+#: includes/class-admin-render.php:122
+#: includes/class-admin-render.php:141
+#: includes/class-admin-render.php:160
+msgid "Rewrite"
+msgstr ""
+
+#: includes/class-admin-render.php:53
+msgid "Rewriting this plugin is totally unnecessary and will break the firewall."
+msgstr ""
+
+#: includes/class-admin-render.php:215
+msgid "Rewritten"
+msgstr ""
+
+#: includes/render/class-render-roster.php:166
+msgid "Risk scores are capped at 78/78 because no automated detection is ever 100% accurate. A high score indicates suspicious patterns were found, but legitimate plugins may also use some of these techniques for valid reasons. Always review before blocking."
+msgstr ""
+
+#: includes/render/class-render-logs.php:43
+msgid "rows recorded"
+msgstr ""
+
+#: includes/render/class-render-settings.php:81
+msgid "Same-Site Connection Control"
+msgstr ""
+
+#: includes/render/class-render-logs.php:16
+msgid "Same-site requests (blue) — requests to your own domain are highlighted in blue for easy identification."
+msgstr ""
+
+#: includes/class-admin-ajax.php:190
+msgid "Save Allowed Domains"
+msgstr ""
+
+#: includes/render/class-render-settings.php:161
+msgid "Save Settings"
+msgstr ""
+
+#: includes/render/class-render-header.php:33
+msgid "Scan Paused for Stability:"
+msgstr ""
+
+#: includes/render/class-render-cron.php:51
+msgid "Scheduled Events"
+msgstr ""
+
+#: includes/render/class-render-roster.php:175
+msgid "Score"
+msgstr ""
+
+#: includes/render/class-render-about.php:31
+msgid "Server Extensions"
+msgstr ""
+
+#: includes/render/class-render-header.php:58
+msgid "Settings"
+msgstr ""
+
+#: includes/render/class-render-header.php:19
+msgid "Settings saved successfully."
+msgstr ""
+
+#: includes/class-admin-render.php:44
+msgid "Sockets"
+msgstr ""
+
+#: includes/render/class-render-settings.php:155
+msgid "Standard scan: 50 files per plugin. Ultimate scan: 1000 files per plugin. Be sure you want this — it will take time."
+msgstr ""
+
+#: includes/class-admin-tables.php:128
+#: includes/class-admin-tables.php:196
+#: includes/class-admin-tables.php:27
+#: includes/render/class-render-cron-domains.php:114
+#: includes/render/class-render-cron-domains.php:46
+#: includes/render/class-render-logs.php:87
+#: ... (7 total references)
+msgid "Status"
+msgstr ""
+
+#: includes/render/class-render-about.php:51
+msgid "Support This Plugin"
+msgstr ""
+
+#: includes/render/class-render-about.php:16
+msgid "System & Environment Status"
+msgstr ""
+
+#: includes/class-admin-render.php:54
+msgid "System Protection"
+msgstr ""
+
+#: includes/render/class-render-roster.php:101
+msgid "The Cache Engine MUST have the Wondalizer MU Plugin active to safely route intercepted calls. To prevent 503 Service Unavailable errors, rewriting is completely disabled until wp-content/mu-plugins is writable and the guard is running."
+msgstr ""
+
+#: includes/render/class-render-roster.php:108
+msgid "The firewall is dynamically rewriting raw cURL, sockets, and native mail calls. Original files are backed up automatically as .wondalizer-bak."
+msgstr ""
+
+#: includes/render/class-render-logs.php:117
+msgid "Theme"
+msgstr ""
+
+#: includes/render/class-render-settings.php:102
+msgid "Theme Defaults"
+msgstr ""
+
+#: includes/class-admin-tables.php:196
+#: includes/render/class-render-logs.php:83
+msgid "Time"
+msgstr ""
+
+#: includes/render/class-render-cron-domains.php:21
+msgid "Total scheduled events: %s"
+msgstr ""
+
+#: includes/render/class-render-cron.php:39
+#: includes/render/class-render-roster.php:38
+msgid "Turn OFF Firewall"
+msgstr ""
+
+#: includes/render/class-render-cron.php:39
+#: includes/render/class-render-roster.php:38
+msgid "Turn ON Firewall"
+msgstr ""
+
+#: includes/render/class-render-settings.php:147
+msgid "Ultimate Scan"
+msgstr ""
+
+#: includes/class-admin-tables.php:100
+#: includes/render/class-render-cron-domains.php:74
+#: includes/render/class-render-cron.php:154
+msgid "Unblock"
+msgstr ""
+
+#: includes/render/class-render-roster.php:181
+msgid "Unblock (Allow)"
+msgstr ""
+
+#: includes/render/class-render-cron-domains.php:35
+msgid "Unblock All"
+msgstr ""
+
+#: includes/render/class-render-cron-domains.php:134
+msgid "Unblock All Obs"
+msgstr ""
+
+#: includes/render/class-render-logs.php:45
+msgid "UNHEALTHY"
+msgstr ""
+
+#: includes/class-admin-tables.php:196
+msgid "URL/To"
+msgstr ""
+
+#: includes/render/class-render-about.php:72
+msgid "Version"
+msgstr ""
+
+#: includes/class-admin-init.php:73
+msgid "View Full Report"
+msgstr ""
+
+#: includes/render/class-render-header.php:39
+msgid "Warning:"
+msgstr ""
+
+#: includes/render/class-render-settings.php:152
+msgid "WARNING: This will scan ALL files in each plugin (up to 1000 files), including vendor/, tests/, and assets. This takes significantly longer and uses more memory. Only enable if you suspect plugins are using hidden socket/email methods not detected by the standard scan."
+msgstr ""
+
+#: wondalizer-external-firewall.php:280
+msgid "We've noticed you used Wondalizer External Firewall more than we expected, if you really like this product, visit the about page to donate, thanks."
+msgstr ""
+
+#: includes/render/class-render-settings.php:49
+msgid "When enabled, every call intercepted by the cURL Cache rewrite engine is recorded in the logs. Useful for monitoring plugin behavior after rewrite."
+msgstr ""
+
+#: includes/render/class-render-settings.php:88
+msgid "When enabled, plugins that are blocked from external HTTP will still be able to connect to your own domain (same-site). This is required for many cache plugins and internal WordPress features. When disabled, blocked plugins are blocked from ALL HTTP including same-site."
+msgstr ""
+
+#: includes/render/class-render-settings.php:115
+msgid "When enabled, the firewall actively blocks or allows HTTP requests from plugins and themes based on your roster settings. When disabled, all HTTP requests are allowed (monitoring only)."
+msgstr ""
+
+#: includes/render/class-render-settings.php:119
+msgid "When enabled, the firewall blocks cron jobs from blocked plugins and themes. When disabled, all cron jobs run normally regardless of block status."
+msgstr ""
+
+#: includes/render/class-render-cron.php:16
+msgid "When enabled, this firewall blocks ALL external HTTP requests made during WordPress cron execution (wp-cron.php / DOING_CRON). You can explicitly whitelist specific cron hooks to allow them internet access."
+msgstr ""
+
+#: includes/render/class-render-cron.php:143
+msgid "WHITELISTED"
+msgstr ""
+
+#: includes/render/class-render-settings.php:56
+msgid "Whitelisted Domains"
+msgstr ""
+
+#: includes/render/class-render-header.php:28
+msgid "Wondalizer External Firewall"
+msgstr ""
+
+#: includes/class-admin-init.php:62
+msgid "Wondalizer Firewall"
+msgstr ""
+
+#: includes/render/class-render-settings.php:126
+msgid "WooCommerce"
+msgstr ""
+
+#: includes/class-admin-roster.php:94
+#: includes/render/class-render-settings.php:57
+msgid "WordPress Core"
+msgstr ""
+
+#: includes/render/class-render-about.php:87
+msgid "WordPress Core and Theme specific bulk blocking controls"
+msgstr ""
+
+#: includes/class-admin-tables.php:17
+msgid "WordPress Core Protocols"
+msgstr ""
+
+#: includes/render/class-render-about.php:25
+msgid "WordPress Engine"
+msgstr ""
+
+#: includes/render/class-render-header.php:33
+msgid "Your site has many extensions. The scanner was paused to prevent timeout. Use \"Rescan All Extensions\" or just reload the page to continue scanning."
+msgstr ""
+
+#: includes/render/class-render-cron.php:67
+msgid "✅ Allow ALL Cron Hooks"
+msgstr ""
+
+#: includes/render/class-render-cron.php:76
+msgid "✅ Allow Selected"
+msgstr ""
+
+#: includes/render/class-render-cron.php:68
+msgid "❌ Disallow ALL Cron Hooks"
+msgstr ""
+
+#: includes/render/class-render-cron.php:77
+msgid "❌ Disallow Selected"
+msgstr ""
+
+#: includes/render/class-render-roster.php:168
+msgid "🔒 Block ALL Bad Potential"
+msgstr ""
+
+#: includes/render/class-render-cron.php:64
+msgid "🔒 Block ALL Cron Hooks"
+msgstr ""
+
+#: includes/render/class-render-roster.php:73
+msgid "🔒 Block ALL Plugin Emails"
+msgstr ""
+
+#: includes/render/class-render-roster.php:50
+msgid "🔒 Block ALL Plugin HTTP"
+msgstr ""
+
+#: includes/render/class-render-roster.php:75
+msgid "🔒 Block Core Emails"
+msgstr ""
+
+#: includes/render/class-render-roster.php:52
+msgid "🔒 Block Core HTTP"
+msgstr ""
+
+#: includes/render/class-render-cron.php:74
+#: includes/render/class-render-roster.php:61
+msgid "🔒 Block Selected"
+msgstr ""
+
+#: includes/render/class-render-roster.php:85
+msgid "🔒 Block Selected Emails"
+msgstr ""
+
+#: includes/render/class-render-roster.php:77
+msgid "🔒 Block Themes Emails"
+msgstr ""
+
+#: includes/render/class-render-roster.php:54
+msgid "🔒 Block Themes HTTP"
+msgstr ""
+
+#: includes/render/class-render-roster.php:169
+msgid "🔓 Unblock ALL Bad Potential"
+msgstr ""
+
+#: includes/render/class-render-cron.php:65
+msgid "🔓 Unblock ALL Cron Hooks"
+msgstr ""
+
+#: includes/render/class-render-roster.php:74
+msgid "🔓 Unblock ALL Emails"
+msgstr ""
+
+#: includes/render/class-render-roster.php:51
+msgid "🔓 Unblock ALL HTTP"
+msgstr ""
+
+#: includes/render/class-render-roster.php:76
+msgid "🔓 Unblock Core Emails"
+msgstr ""
+
+#: includes/render/class-render-roster.php:53
+msgid "🔓 Unblock Core HTTP"
+msgstr ""
+
+#: includes/render/class-render-cron.php:75
+#: includes/render/class-render-roster.php:62
+msgid "🔓 Unblock Selected"
+msgstr ""
+
+#: includes/render/class-render-roster.php:86
+msgid "🔓 Unblock Selected Emails"
+msgstr ""
+
+#: includes/render/class-render-roster.php:78
+msgid "🔓 Unblock Themes Emails"
+msgstr ""
+
+#: includes/render/class-render-roster.php:55
+msgid "🔓 Unblock Themes HTTP"
+msgstr ""
+

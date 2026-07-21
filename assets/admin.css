@@ -1,0 +1,609 @@
+/* Wondalizer External Firewall - Admin Styles (v8.1.8) */
+
+.won1-btn {
+    padding: 4px 12px;
+    font-size: 12px;
+}
+
+.won1-stats {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 25px;
+}
+
+.won1-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+    border: 1px solid #c3c4c7;
+}
+
+.won1-badge {
+    display: inline-block;
+    padding: 3px 8px;
+    border-radius: 4px;
+    font-size: 11px;
+    font-weight: 600;
+}
+
+.won1-statbox {
+    background: #fff;
+    border: 1px solid #c3c4c7;
+    border-radius: 4px;
+    padding: 15px 20px;
+    min-width: 140px;
+    text-align: center;
+    flex: 1 1 auto;
+}
+
+.won1-log-row {
+    border-left: 4px solid transparent;
+}
+
+.won1-domains {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+}
+
+.won1-section {
+    margin-top: 30px;
+}
+
+.won1-warning {
+    background: #fff3cd;
+    border-left: 4px solid #ffc107;
+    padding: 12px 15px;
+    margin: 15px 0;
+}
+
+.won1-info-box {
+    background: #f0f6fc;
+    border: 1px solid #c5d9ed;
+    border-radius: 4px;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.won1-bulk-bar {
+    margin: 15px 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 8px;
+}
+
+.won1-table th {
+    background: #f0f0f1;
+    padding: 10px 12px;
+    text-align: left;
+    font-weight: 600;
+    border-bottom: 1px solid #c3c4c7;
+    font-size: 13px;
+}
+
+.won1-table td {
+    padding: 10px 12px;
+    border-bottom: 1px solid #f0f0f1;
+    vertical-align: middle;
+    font-size: 13px;
+}
+
+.won1-badge.mu {
+    background: #fff3cd;
+    color: #856404;
+}
+
+.won1-btn.info {
+    background: #17a2b8;
+    color: #fff;
+    border-color: #17a2b8;
+}
+
+.method-group {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    flex-wrap: wrap;
+}
+
+.won1-statbox p {
+    margin: 0;
+    font-size: 12px;
+    color: #666;
+}
+
+.won1-log-email {
+    border-left: 4px solid #5b21b6;
+    background: #fdfaff;
+}
+
+.obs-score-bar {
+    width: 100px;
+    height: 8px;
+    background: #e2e3e5;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.won1-badge.obs {
+    background: #ffe0e0;
+    color: #700000;
+    border: 1px solid #ffaaaa;
+}
+
+.won1-statbox h3 {
+    margin: 0 0 5px;
+    font-size: 28px;
+    line-height: 1;
+}
+
+.won1-danger-box {
+    background: #fff5f5;
+    border: 1px solid #fc8181;
+    border-radius: 4px;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.won1-badge.core {
+    background: #e2e3e5;
+    color: #383d41;
+}
+
+.won1-btn.danger {
+    background: #dc3545;
+    color: #fff;
+    border-color: #dc3545;
+}
+
+.obs-score-fill {
+    height: 100%;
+    background: #dc3545;
+    border-radius: 4px;
+}
+
+.won1-badge.info {
+    background: #17a2b8;
+    color: #fff;
+}
+
+.won1-section h3 {
+    padding: 10px 15px;
+    background: #f0f0f1;
+    border-left: 4px solid #0073aa;
+    margin: 0 0 15px;
+}
+
+.won1-select-all {
+    cursor: pointer;
+    color: #0073aa;
+    text-decoration: underline;
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+.won1-log-blocked {
+    border-left: 4px solid #dc3545;
+    background: #fff5f5;
+}
+
+.won1-badge.theme {
+    background: #d1ecf1;
+    color: #0c5460;
+}
+
+.won1-badge.email {
+    background: #e8d5ff;
+    color: #5b21b6;
+}
+
+.won1-badge.alert {
+    background: #fff3cd;
+    color: #856404;
+}
+
+.won1-btn.success {
+    background: #28a745;
+    color: #fff;
+    border-color: #28a745;
+}
+
+.won1-btn.warning {
+    background: #ffc107;
+    color: #212529;
+    border-color: #ffc107;
+}
+
+.won1-domains span {
+    background: #f0f0f1;
+    padding: 2px 6px;
+    border-radius: 3px;
+    font-size: 11px;
+    color: #555;
+}
+
+.won2-panel {
+    display: none;
+}
+
+.won1-badge.active {
+    background: #d1f7d1;
+    color: #1a5c1a;
+}
+
+.won1-badge.dropin {
+    background: #ffe6f9;
+    color: #800060;
+}
+
+.won1-domain-modal {
+    display: none;
+    position: fixed;
+    z-index: 100000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+}
+
+.won1-logs-table th {
+    font-size: 13px;
+    padding: 12px 14px;
+}
+
+.won1-logs-table td {
+    padding: 14px 14px;
+    border-bottom: 2px solid #e2e4e7;
+}
+
+.won1-log-row:hover {
+    background: #f0f4f8;
+}
+
+.won1-badge.blocked {
+    background: #f8d7da;
+    color: #721c24;
+}
+
+.won1-danger-box h4 {
+    margin: 0 0 10px;
+    color: #721c24;
+}
+
+.won1-table tr:hover {
+    background: #f6f7f7;
+}
+
+.won1-badge.inactive {
+    background: #e2e3e5;
+    color: #6c757d;
+}
+
+.won1-btn.info:hover {
+    background: #138496;
+}
+
+.won1-log-email:hover {
+    background: #f3e8ff;
+}
+
+.won1-badge.rewritten {
+    background: #d4edda;
+    color: #155724;
+}
+
+.method-group .badge {
+    margin-right: 4px;
+}
+
+.won1-btn.danger:hover {
+    background: #c82333;
+}
+
+.won1-table tr.obs-row {
+    background: #fff0f0;
+}
+
+.won2-panel:first-of-type {
+    display: block;
+}
+
+.won2-wrap h1 {
+    margin-bottom: 20px;
+}
+
+.won1-log-blocked:hover {
+    background: #ffe0e0;
+}
+
+.won1-badge.method-curl {
+    background: #fff3e0;
+    color: #e65100;
+    border: 1px solid #ffcc80;
+}
+
+.won1-btn.success:hover {
+    background: #218838;
+}
+
+.won1-btn.warning:hover {
+    background: #e0a800;
+}
+
+.won1-table tr:hover td {
+    background: #f9f9f9;
+}
+
+.won1-domain-modal-close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.won1-badge.method-socket {
+    background: #f3e5f5;
+    color: #6a1b9a;
+    border: 1px solid #ce93d8;
+}
+
+#won2-domain-modal {
+    display: none;
+    position: fixed;
+    z-index: 100000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+}
+
+.won1-logs-table thead tr {
+    background: #f0f6fc;
+    border-bottom: 2px solid #2271b1;
+}
+
+.won1-logs-table thead th {
+    font-size: 14px;
+    padding: 12px 10px;
+    border-bottom: 2px solid #2271b1;
+    color: #1d2327;
+    font-weight: 600;
+}
+
+.won1-logs-table tbody tr {
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.won1-logs-table tbody td {
+    font-size: 13px;
+    padding: 10px;
+    border-bottom: 1px solid #e0e0e0;
+    vertical-align: top;
+}
+
+.won1-cron-table thead th {
+    font-size: 14px;
+    padding: 12px 10px;
+    border-bottom: 2px solid #ffc107;
+    color: #1d2327;
+    font-weight: 600;
+}
+
+.won1-cron-table tbody tr {
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.won1-cron-table tbody td {
+    font-size: 13px;
+    padding: 10px 8px;
+    border-bottom: 1px solid #e0e0e0;
+    vertical-align: middle;
+}
+
+.won1-table tr.blocked-row {
+    background: #fff5f5;
+}
+
+.won1-table tr.patched-row {
+    background: #f0fff4;
+}
+
+.won1-badge.method-wp-mail {
+    background: #e8f5e9;
+    color: #2e7d32;
+    border: 1px solid #a5d6a7;
+}
+
+.won1-domain-modal-content {
+    background: #fff;
+    margin: 5% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 90%;
+    max-width: 600px;
+    max-height: 80vh;
+    overflow-y: auto;
+    border-radius: 4px;
+}
+
+.won1-badge.method-php-mail {
+    background: #fce4ec;
+    color: #c2185b;
+    border: 1px solid #f48fb1;
+}
+
+.won1-section.core-section h3 {
+    border-left-color: #004085;
+    background: #e6f3ff;
+}
+
+.won1-section.theme-section h3 {
+    border-left-color: #a855f7;
+    background: #faf5ff;
+}
+
+.won1-section.risky-section h3 {
+    border-left-color: #dc3545;
+    background: #ffe0e0;
+    color: #700000;
+}
+
+.won1-domain-modal-close:hover {
+    color: #000;
+}
+
+.won1-logs-table tbody tr:hover {
+    background: #f0f6fc;
+}
+
+.won1-cron-table tbody tr:hover {
+    background: #fff9e6;
+}
+
+.won1-table tr.obs-row:hover td {
+    background: #ffe0e0;
+}
+
+.won1-table tr.blocked-row:hover {
+    background: #ffe0e0;
+}
+
+#won2-domain-modal .close {
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.won1-table tr.blocked-row:hover td {
+    background: #ffe6e6;
+}
+
+.won1-logs-table tbody tr:last-child {
+    border-bottom: none;
+}
+
+#won2-domain-modal .modal-content {
+    background: #fff;
+    margin: 10% auto;
+    padding: 20px;
+    border-radius: 4px;
+    max-width: 500px;
+    position: relative;
+}
+
+/* Toggle switch */
+.won1-toggle {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 26px;
+    vertical-align: middle;
+}
+.won1-toggle input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.won1-toggle-slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: .4s;
+    border-radius: 26px;
+}
+.won1-toggle-slider:before {
+    position: absolute;
+    content: "";
+    height: 18px;
+    width: 18px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    transition: .4s;
+    border-radius: 50%;
+}
+.won1-toggle input:checked + .won1-toggle-slider {
+    background-color: #2271b1;
+}
+.won1-toggle input:checked + .won1-toggle-slider:before {
+    transform: translateX(24px);
+}
+
+/* Legend */
+.won1-legend {
+    margin: 10px 0 20px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.won1-legend-item {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 12px;
+}
+.won1-legend-blue, .won1-legend-red, .won1-legend-green {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    border-radius: 3px;
+}
+.won1-legend-blue {
+    background: #e6f2ff;
+    border: 1px solid #0066cc;
+}
+.won1-legend-red {
+    background: #f8d7da;
+    border: 1px solid #721c24;
+}
+.won1-legend-green {
+    background: #d4edda;
+    border: 1px solid #155724;
+}
+
+/* v8.0.0 — Protected badge */
+.won1-badge.protected {
+    background: #f0f0f1;
+    color: #646970;
+    border: 1px solid #c3c4c7;
+}
+
+/* ---- Admin page layout (moved from inline header styles, v8.1.0) ---- */
+
+.won2-wrap .nav-tab-wrapper{border-bottom:2px solid #c3c4c7;margin-bottom:20px;padding-bottom:0;display:flex;flex-wrap:wrap;}
+.won2-wrap .nav-tab{display:inline-block;padding:10px 16px;font-size:14px;font-weight:500;line-height:1.4;border:1px solid #c3c4c7;border-bottom:none;background:#f6f7f7;color:#50575e;text-decoration:none;margin:0 4px -1px 0;transition:all 0.2s ease;}
+.won2-wrap .nav-tab:hover{background:#fff;color:#2271b1;}
+.won2-wrap .nav-tab-active{border-bottom:2px solid #f0f0f1;background:#fff;color:#1d2327;border-top:3px solid #2271b1;}
+.won2-panel{display:none; animation: won1FadeIn 0.3s ease-in-out;}
+@keyframes won1FadeIn { from { opacity: 0; transform: translateY(5px); } to { opacity: 1; transform: translateY(0); } }
+.won1-table{width:100%;border-collapse:collapse;margin-top:10px;background:#fff;border:1px solid #c3c4c7;box-shadow:0 1px 3px rgba(0,0,0,0.04);}
+.won1-table th{background:#f6f7f7;padding:10px 12px;text-align:left;font-weight:600;border-bottom:1px solid #c3c4c7;font-size:13px;color:#1d2327;}
+.won1-table td{padding:10px 12px;border-bottom:1px solid #f0f0f1;vertical-align:middle;font-size:13px;}
+.won1-badge{display:inline-block;padding:3px 8px;border-radius:4px;font-size:11px;font-weight:600;margin-right:4px;}
+.won1-badge.blocked{background:#f8d7da;color:#721c24;border:1px solid #f5c6cb;}
+.won1-badge.active{background:#d4edda;color:#155724;border:1px solid #c3e6cb;}
+.won1-badge.alert{background:#fff3cd;color:#856404;border:1px solid #ffeeba;}
+.won1-badge.core{background:#e2e3e5;color:#383d41;}
+.won1-btn{margin-right:4px;margin-bottom:4px;transition:all 0.2s ease-in-out;box-shadow:0 1px 2px rgba(0,0,0,0.05);}
+.won1-btn:hover{transform:translateY(-1px);box-shadow:0 3px 6px rgba(0,0,0,0.1);}
+.won1-bulk-bar{margin:15px 0;padding:12px 15px;background:#f6f7f7;border:1px solid #c3c4c7;border-radius:4px;display:flex;align-items:center;flex-wrap:wrap;gap:8px;}
+.won1-info-box{background:#f0f6fc;border-left:4px solid #2271b1;padding:15px;margin:15px 0;border-radius:0 4px 4px 0;box-shadow:0 1px 3px rgba(0,0,0,0.04);}
+.won1-url-cell{max-width:400px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:#50575e;font-size:11px;}
+.won1-status-grid{display:grid;grid-template-columns:repeat(auto-fill, minmax(250px, 1fr));gap:15px;margin-top:20px;}
+.won1-status-card{background:#fff;border:1px solid #c3c4c7;padding:15px;border-radius:4px;box-shadow:0 1px 2px rgba(0,0,0,0.05);}
+.won1-status-card h4{margin:0 0 10px 0;color:#1d2327;border-bottom:1px solid #f0f0f1;padding-bottom:5px;}
+.won1-statbox{background:#fff;border:1px solid #c3c4c7;border-radius:4px;padding:15px 20px;min-width:140px;text-align:center;}
+.won1-statbox h3{margin:0 0 5px;font-size:28px;line-height:1;}
+.won1-statbox p{margin:0;font-size:12px;color:#666;}
+            
